@@ -1,0 +1,40 @@
+.itemC{
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgb(0,0,0,0.5);
+    margin: 20px;
+    overflow: hidden;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.itemimg{
+    max-width: 100%;
+    height: auto;
+}
+.itemcontain{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;   
+}
+.itemname{
+    font-size: 1em;
+    font-weight: 600;
+    color: #393e46;
+}
+
+.buttoncontainer{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+.itembutton{
+    background-color:green;
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+}
